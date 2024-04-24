@@ -24,8 +24,8 @@ Simple scaffolding tool.
 
 ## 🚀 How to use
 
-```
-# Run from URL
+Run from URL
+```sh
 deno run -A https://raw.githubusercontent.com/Comamoca/scaffox/main/main.ts
 ```
 
