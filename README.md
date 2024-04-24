@@ -32,7 +32,7 @@ deno run -A https://raw.githubusercontent.com/Comamoca/scaffox/main/main.ts
 ## ⬇️  Install
 
 ```sh
-deno install -A https://raw.githubusercontent.com/Comamoca/scaffox/main/main.ts
+deno install -gAf -n scaffox https://raw.githubusercontent.com/Comamoca/scaffox/main/main.ts
 ```
 
 ## ⛏️   Development
