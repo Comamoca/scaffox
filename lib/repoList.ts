@@ -3,7 +3,7 @@ import { extname } from "https://deno.land/std@0.223.0/path/mod.ts";
 export async function repoList(
   owner: string,
   name: string,
-  ignoreFiles = [".gitignore", ".gitmodules"],
+  ignoreFiles = [".gitignore", ".gitmodules", "LICENSE"],
 ): Array<string> {
   const url = `https://api.github.com/repos/${owner}/${name}/contents/`;
 
