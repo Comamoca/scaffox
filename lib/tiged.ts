@@ -1,4 +1,4 @@
-import tiged from "npm:tiged";
+import tiged from "https://esm.sh/tiged@2.12.7";
 import { TerminalSpinner } from "https://deno.land/x/spinners@v1.1.2/mod.ts";
 
 export function clone(
