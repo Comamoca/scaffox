@@ -1,4 +1,4 @@
-import nfzf from "npm:node-fzf";
+import nfzf from "https://esm.sh/node-fzf@0.11.0";
 
 export async function fuzzySelect(items: [string]): string {
   const opts = {
