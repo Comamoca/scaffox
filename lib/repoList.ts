@@ -1,4 +1,4 @@
-import { extname } from "https://deno.land/std@0.223.0/path/mod.ts";
+import { extname } from "https://deno.land/std@0.224.0/path/mod.ts";
 
 export async function repoList(
   owner: string,

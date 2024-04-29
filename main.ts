@@ -2,7 +2,7 @@ import { clone } from "./lib/tiged.ts";
 import { fuzzySelect } from "./lib/nfzf.ts";
 import { repoList } from "./lib/repoList.ts";
 import prompts from "https://esm.sh/prompts@2.4.2";
-import { parse } from "https://deno.land/std@0.223.0/path/posix/parse.ts";
+import { parse } from "https://deno.land/std@0.224.0/path/posix/parse.ts";
 
 const args = Deno.args;
 
